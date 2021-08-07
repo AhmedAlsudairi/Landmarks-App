@@ -18,6 +18,7 @@
 		D5B1036C26BE0716007D3B70 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = D5B1036B26BE0716007D3B70 /* landmarkData.json */; };
 		D5B1036E26BE0735007D3B70 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B1036D26BE0735007D3B70 /* Landmark.swift */; };
 		D5B1037026BE09D8007D3B70 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B1036F26BE09D8007D3B70 /* ModelData.swift */; };
+		D5B1037526BE0BAE007D3B70 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B1037426BE0BAE007D3B70 /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		D5B1036B26BE0716007D3B70 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		D5B1036D26BE0735007D3B70 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		D5B1036F26BE09D8007D3B70 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D5B1037426BE0BAE007D3B70 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				D5B1033E26BD9BD9007D3B70 /* ContentView.swift */,
 				D5B1036726BD9D2D007D3B70 /* CircleImage.swift */,
 				D5B1036926BD9E3F007D3B70 /* MapView.swift */,
+				D5B1037426BE0BAE007D3B70 /* LandmarkRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				D5B1033D26BD9BD9007D3B70 /* LandmarksApp.swift in Sources */,
 				D5B1036826BD9D2D007D3B70 /* CircleImage.swift in Sources */,
 				D5B1036E26BE0735007D3B70 /* Landmark.swift in Sources */,
+				D5B1037526BE0BAE007D3B70 /* LandmarkRow.swift in Sources */,
 				D5B1037026BE09D8007D3B70 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
