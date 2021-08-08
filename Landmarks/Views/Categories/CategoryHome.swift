@@ -14,9 +14,15 @@ struct CategoryHome: View {
         NavigationView{
             
             List{
+                modelData.features[0].image
+                    .resizable()
+                    .scaledToFill()
+                    .frame(height: 200)
+                    .clipped()
+                
                 ForEach(modelData.categories.keys.sorted(), id: \.self){
                     category in
-                    Text(category)
+                    CategoryRow(categoryName: category, items: modelData.categories[category]!)
                 }
             }
                 .navigationTitle("Featured")
