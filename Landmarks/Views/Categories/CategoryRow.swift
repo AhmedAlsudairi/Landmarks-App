@@ -21,7 +21,7 @@ struct CategoryRow: View {
                 HStack{
                     ForEach(items){
                         item in
-                        Text(item.name)
+                        CategoryItem(landmark: item)
                     }
                 }
             }
