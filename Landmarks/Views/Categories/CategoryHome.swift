@@ -19,7 +19,7 @@ struct CategoryHome: View {
                     .scaledToFill()
                     .frame(height: 200)
                     .clipped()
-                
+                    .listRowInsets(EdgeInsets())
                 ForEach(modelData.categories.keys.sorted(), id: \.self){
                     category in
                     CategoryRow(categoryName: category, items: modelData.categories[category]!)

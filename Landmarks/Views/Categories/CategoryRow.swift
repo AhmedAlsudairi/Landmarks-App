@@ -21,7 +21,11 @@ struct CategoryRow: View {
                 HStack{
                     ForEach(items){
                         item in
-                        CategoryItem(landmark: item)
+                        NavigationLink(
+                            destination: LandmarkDetail(landmark: item)){
+                            CategoryItem(landmark: item)
+                        }
+                        
                     }
                 }
             }
