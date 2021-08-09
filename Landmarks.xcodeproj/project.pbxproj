@@ -36,6 +36,7 @@
 		D5B2C7A626C041B800DA3903 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2C7A526C041B800DA3903 /* Profile.swift */; };
 		D5B2C7A926C0429A00DA3903 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2C7A826C0429A00DA3903 /* ProfileHost.swift */; };
 		D5B2C7AB26C0437700DA3903 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2C7AA26C0437700DA3903 /* ProfileSummary.swift */; };
+		D5B2C7AD26C118DF00DA3903 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2C7AC26C118DF00DA3903 /* HikeBadge.swift */; };
 		D5FE551E26BEF33600943DD4 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE551D26BEF33600943DD4 /* FavoriteButton.swift */; };
 		D5FE552226BF172300943DD4 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE552126BF172300943DD4 /* HexagonParameters.swift */; };
 		D5FE552426BF17F700943DD4 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE552326BF17F700943DD4 /* BadgeBackground.swift */; };
@@ -94,6 +95,7 @@
 		D5B2C7A526C041B800DA3903 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		D5B2C7A826C0429A00DA3903 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		D5B2C7AA26C0437700DA3903 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		D5B2C7AC26C118DF00DA3903 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		D5FE551D26BEF33600943DD4 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		D5FE552126BF172300943DD4 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		D5FE552326BF17F700943DD4 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 				D5B2C79726BFC47300DA3903 /* HikeGraph.swift */,
 				D5B2C79826BFC47300DA3903 /* HikeDetail.swift */,
 				D5B2C79926BFC47300DA3903 /* HikeView.swift */,
+				D5B2C7AC26C118DF00DA3903 /* HikeBadge.swift */,
 			);
 			path = Hikes;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				D5B2C79D26BFC47300DA3903 /* HikeView.swift in Sources */,
 				D5B1037926BE26D0007D3B70 /* LandmarkDetail.swift in Sources */,
 				D5FE552426BF17F700943DD4 /* BadgeBackground.swift in Sources */,
+				D5B2C7AD26C118DF00DA3903 /* HikeBadge.swift in Sources */,
 				D5B1036826BD9D2D007D3B70 /* CircleImage.swift in Sources */,
 				D5B1036E26BE0735007D3B70 /* Landmark.swift in Sources */,
 				D5B1037526BE0BAE007D3B70 /* LandmarkRow.swift in Sources */,

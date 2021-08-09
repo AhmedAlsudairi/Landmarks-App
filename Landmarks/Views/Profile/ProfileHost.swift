@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ProfileHost: View {
     @State private var profile = Profile.default
+    
     var body: some View {
-        Text("Profile for: \(profile.username)")
+        VStack(alignment: .leading, spacing: 20) {
+            ProfileSummary(profile: profile)
+        }
     }
 }
 
