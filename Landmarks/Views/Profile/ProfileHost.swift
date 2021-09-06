@@ -11,7 +11,7 @@ struct ProfileHost: View {
     @State private var profile = Profile.default
     @Environment(\.editMode) var editMode
     @EnvironmentObject var modelData: ModelData
-    
+    /// test
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             HStack{
@@ -23,7 +23,9 @@ struct ProfileHost: View {
                 }
                 Spacer()
                 EditButton()
+                    
             }
+            
             if editMode?.wrappedValue == .inactive {
                 ProfileSummary(profile: modelData.profile)
             }else{
